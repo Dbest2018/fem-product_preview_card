@@ -16,7 +16,80 @@
   --fs: 14px;
 }
 
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.font-fraunces {
+  font-family: "Fraunces", serif;
+}
+
 body {
   background-color: var(--bg-color);
   font-size: var(--fs);
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding: 2em 1em;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.card__img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card__description {
+  padding: 1em;
+}
+
+.card__description-title {
+  text-transform: uppercase;
+}
+
+.card__description-title,
+.card__description-name,
+.card__description-text,
+.card__description-price {
+  margin-bottom: 0.5em;
+}
+
+.card__description-price {
+  color: var(--dark-cyan);
+}
+
+.card__description-title,
+.card__description-text,
+.previous-price {
+  color: var(--grayish-blue);
+}
+
+.card__description-name,
+.card__description-price {
+  font-size: 2.5em;
+}
+
+.previous-price {
+  font-size: 1rem;
+  text-decoration: line-through;
+}
+
+.card__description-button {
+  background-color: var(--dark-cyan);
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+  border-radius: 0.5em;
+}
+.button-text {
+  margin-left: 1em;
+  color: white;
 }
