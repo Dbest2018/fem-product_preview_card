@@ -56,6 +56,10 @@ body {
   letter-spacing: 0.3em;
 }
 
+.card__description-name {
+  color: var(--dark-blue);
+}
+
 .card__description-title,
 .card__description-name,
 .card__description-text,
@@ -101,4 +105,24 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 800px) {
+  .container {
+    padding-top: 10em;
+    margin: auto;
+  }
+  .card {
+    flex-direction: row;
+  }
+  .card__img {
+    content: url("../images/image-product-desktop.jpg");
+    width: 50%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 1em;
+  }
+  .card__description {
+    padding: 2em;
+  }
 }
