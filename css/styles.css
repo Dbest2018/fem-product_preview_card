@@ -53,6 +53,7 @@ body {
 
 .card__description-title {
   text-transform: uppercase;
+  letter-spacing: 0.3em;
 }
 
 .card__description-title,
@@ -92,4 +93,12 @@ body {
 .button-text {
   margin-left: 1em;
   color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
