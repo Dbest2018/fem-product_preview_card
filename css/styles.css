@@ -94,6 +94,11 @@ body {
   padding: 1em 0;
   border-radius: 0.5em;
 }
+.card__description-button:hover,
+.card__description-button:focus {
+  cursor: pointer;
+  filter: brightness(85%);
+}
 .button-text {
   margin-left: 1em;
   color: white;
